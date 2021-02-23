@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Bio-data</title>
+</head>
+
+<body class="body">
+    
+    <div class="container">
+        <h1>Coding Blocks Enrollment Form</h1>
+        
+        <form action="">
+            <div>
+                <Label for="user">Username</Label> <br>
+                <input type="text" name="user" placeholder="Enter username" id="user">
+            </div>
+            <div>
+                <Label for="email">Email</Label> <br>
+                <input type="email" name="email" placeholder="Enter email" id="email">
+            </div>
+            <div>
+                <Label for="password">Password</Label> <br>
+                <input type="password" name="password" placeholder="Enter password" id="password"></div>
+            <div class="gender">
+                <Label>Gender</Label><br>
+                <input type="radio" name="gender" id="male">
+                <Label for="male">Male</Label> <br>
+                <input type="radio" name="gender" id="female">
+                <Label for="female">Female</Label> <br>
+                <input type="radio" name="gender" id="other">
+
+                <Label for="other">Others</Label> <br>
+            </div>
+            <div>
+                <Label for="dob">Date of Birth</Label> <br>
+                <input type="date" name="date" id="dob"></div>
+            <div>
+                <Label for="timeb">Time of Birth</Label> <br>
+                <input type="time" name="timeb" id="timeb"></div>
+            <div>
+                <Label for="fcolor">Favourite Color</Label> <br>
+                <input type="color" name="fcolor" id="fcolor"></div>
+            <div>
+                <Label for="photo">Upload Passport size photo</Label> <br>
+                <input type="file" name="photo" id="photo"></div>
+
+            <div>
+                <Label for="course">Enrolled course</Label>
+                <select name="course" id="course">
+                    <option value="DS Java">DS Java</option>
+                    <option value="DS C++">DS C++</option>
+                    <option value="WEB DEV">WEB DEV</option>
+                    <option value="Android">Android</option>
+                    <option value="Machine learning">Machine learning</option>
+                </select>
+            </div>
+            <div>
+                <label for="why">Please Describe, why you want to Enroll ? </label> <br>
+                <textarea name="why" id="why" cols="70" rows="10" placeholder="Describe"></textarea>
+            </div>
+            <Label for="tel">Phone Number : </Label>
+            <input type="tel" name="tel" id="tel" maxlength="10">
+            <div>
+                <input type="checkbox" name="terms" id="terms">
+                <Label> I agree Terms and conditions of the organisation.</Label>
+            </div>
+            <input type="submit" value="Register" name="btn" class="registerbtn" id="btn">
+        </form>
+    </div>
+</body>
+
+</html>

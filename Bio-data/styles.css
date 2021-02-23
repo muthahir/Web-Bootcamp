@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #a8ff78;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #78ffd6, #a8ff78);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #78ffd6, #a8ff78); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    margin: 150px;
+    margin-top: 20px;
+  
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  h1{
+      text-align: center;
+      color:#38ef7d;
+  }
+  
+ 
+  .container {
+    padding: 16px;
+    background-color: white;
+  }
+  .gender{
+    margin-bottom: 15px;
+}
+
+  
+
+  input[type=text], input[type=password] , input[type=email] ,input[type=date],input[type=time] ,input[type=tel],input[type=color], input[type=file] ,select, textarea .input[type=checkbox] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+  }
+  
+  input[type=text]:focus, input[type=password] ,input[type=email]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  
+
+  
+
+  .registerbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    
+  }
+  
+  .registerbtn:hover {
+    background-color: #32cf37;  
+    opacity: 1;
+  }
+  
+  
+  
+  
