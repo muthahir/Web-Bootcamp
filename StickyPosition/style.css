@@ -1,0 +1,33 @@
+
+  section{
+      border: 2px solid black;
+      margin: 20px auto;
+    
+  }
+  
+  h2 {
+    background: #6dd5ed;
+    color: #FFF;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 1px solid black;
+    margin:0px;
+    padding:15px;
+    position: sticky;
+    top: 10px;
+  }
+  
+  p {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 10px;
+    border: 1px solid black;
+    font-weight: 400;
+  }
+  
+  
+  section div h2 {
+      text-align: center;
+  }
+  section div p {
+    text-align: center;
+}
