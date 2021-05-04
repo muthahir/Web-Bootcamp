@@ -1,0 +1,23 @@
+
+<%- include("../partials/header")%>
+<%- include("../partials/navbar")%>
+<div class="container">
+    
+<main>
+    
+    <% for(let post of posts){ %> 
+    <div class="singleBlog">
+      <img src="<%=post.img%>" alt="">
+      <div class="blogContent">
+        <h3> <span><%=post.title%></span></h3>
+        <p><%=post.desc.substring(0,70)%></p>
+        <a href="/posts/<%=post._id%>" class="btn">Read More</a>
+      </div>
+    </div>
+    <% } %> 
+  </main>
+</div>
+
+
+    
+<%- include("../partials/footer")%>
